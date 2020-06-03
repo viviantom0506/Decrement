@@ -9,7 +9,7 @@ class Decrement extends Component {
 
   handleDecrement = (state) => {
     if (state.number === 0) {
-      return alert("This can't be less than 0!!");
+      return alert('This cant be less than 0');
     }
     this.setState({ number: state.number - 1 });
   };
